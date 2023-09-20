@@ -8,53 +8,55 @@ const Skills = () => {
             </div>
 
             <div className='row'>
-                <div className='col-md-6'>
-                    <h5>Programming language</h5>
-                </div>
-                <div className='col-md-2'>
-                    <img src='./images/python-logo-only.png' alt='python' height='120' width='120'/>
-                </div>
-                <div className='col-md-2'>
-                    <img src='./images/c-.png' alt='C' height='120' width='120'/>
-                </div>
-                <div className='col-md-2'>
-                    <img src='./images/java.png' alt='Java' height='120' width='120'/>
-                </div>
-            </div>
-            <br/>
-
-            <div className='row'>
-                <div className='col-md-6'>
-                    <h5>Framework</h5>
-                </div>
-                <div className='col-md-2'>
-                    <img src='./images/django-icon.jpg' alt='Django' height='120' width='120'/>
-                </div>
-            </div>
-            <br/>
-
-            <div className='row'>
-                <div className='col-md-6'>
-                    <h5>Databases</h5>
+                <div className='col-md-3'>
+                    <i class='bx bxl-python' ></i>
+                    <h4>Python</h4>
                 </div>
                 <div className='col-md-3'>
-                    <img src='./images/logo-mysql.png' alt='MySQL' height='120' width='200'/>
+                    <i class='bx bxl-c-plus-plus' ></i>
+                    <h4>C/C++</h4>
                 </div>
                 <div className='col-md-3'>
-                    <img src='./images/MongoDB_ForestGreen.png' alt='MongoDB' height='80' width='320'/>
+                    <i class='bx bxl-java' ></i>
+                    <h4>Java</h4>
+                </div>
+                <div className='col-md-3'>
+                    <i class='bx bxl-django' ></i>   
+                    <h4>Django</h4>
                 </div>
             </div>
-            <br/>
+    
 
             <div className='row'>
-                <div className='col-md-6'>
-                    <h5>Operating System</h5>
-                    </div>
                 <div className='col-md-3'>
-                    <img src='./images/Linux.png' alt='Linux' height='120' width='120'/>
+                    <i class='bx bxl-html5' ></i>
+                    <h4>HTML</h4>
+                </div>
+                <div className='col-md-3'>
+                    <i class='bx bxl-css3' ></i>
+                    <h4>CSS</h4>
+                </div>
+                <div className='col-md-3'>
+                    <i class='bx bxl-javascript' ></i>
+                    <h4>Javascript</h4>
+                </div>
+                <div className='col-md-3'>
+                    <i class='bx bxl-bootstrap' ></i>
+                    <h4>Bootstrap</h4>
                 </div>
             </div>
-            <br/>
+            
+            <div className='row'>
+                <div className='col-md-3'>
+                    <i class='bx bxl-react' ></i>
+                    <h4>ReactJS</h4>
+                </div>
+                <div className='col-md-3'>
+                    <i class='bx bxl-mongodb' ></i>
+                    <h4>MongoDB</h4>
+                </div>
+            </div>
+
 
         
         </div>

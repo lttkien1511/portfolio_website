@@ -8,6 +8,11 @@ const Header = () => {
     return <div className = 'container header'>
         <nav className='navbar navbar-expand-lg navbar-light'>
             <div className='container-fluid'>
+                <div className='titleportfo' >
+                    <a className='navbar-brand' href='#'>
+                        My Portfolio
+                    </a>
+                </div>
                 <ul className = 'navbar-nav'>
                     <li className = 'nav-item'>
                         <a className="nav-link" href='#'>Home</a>

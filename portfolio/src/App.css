@@ -1,8 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.titleportfo {
+    font-size: 20px;
+}
+
 .highlight {
     height: 400px;
     background-image: url('./assets/Milky-Way.jpg');
     color: aliceblue;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -39,8 +50,43 @@
     margin-bottom: 40px;
 }
 
+
 .skills {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    display: grid;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.skills:hover{
+    border-radius: 1rem solid;
+    transition: scale(1.05);
+}
+
+.social-media a{
+    width: 3.8rem;
+    height: 3.8rem;
+    font-size: 2.2rem;
+    margin: 1rem 1rem 2rem 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    text-decoration: none;
+
+}
+
+.social-media a:hover{
+    color: bisque;
+    box-shadow: 0 0 1rem bisque;
+}
+
+.animated-text {
+    color:bisque
+}
+
 
